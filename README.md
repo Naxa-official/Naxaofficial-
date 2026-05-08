@@ -1,1 +1,662 @@
-# Naxaofficial-
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Naxa | 起業家のためのホームページ制作サービス</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<meta name="description" content="補助金・支援金の申請条件に必要なホームページを¥10,000からスピーディに制作。起業家・個人事業主のためのホームページ制作サービス Naxa。">
+<meta property="og:title" content="Naxa | 起業家のためのホームページ制作サービス">
+<meta property="og:description" content="補助金・支援金の申請条件に必要なホームページを¥10,000からスピーディに制作。">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F5F2EC;
+  --dark:#1A1612;
+  --orange:#E85D26;
+  --orange2:#FF7A45;
+  --cream:#FAF8F4;
+  --gray:#7A7268;
+  --border:#E0DBD4;
+  --white:#FFFFFF;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--dark);font-family:'Noto Sans JP',sans-serif;font-weight:300;line-height:1.8;overflow-x:hidden;cursor:none}
+
+/* CURSOR */
+.cursor{position:fixed;width:12px;height:12px;background:var(--orange);border-radius:50%;pointer-events:none;z-index:9999;transition:transform 0.15s ease;mix-blend-mode:multiply}
+.cursor-ring{position:fixed;width:40px;height:40px;border:1.5px solid var(--orange);border-radius:50%;pointer-events:none;z-index:9998;transition:all 0.1s ease;opacity:0.5}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.4rem 3rem;display:flex;justify-content:space-between;align-items:center;mix-blend-mode:multiply}
+nav.scrolled{background:rgba(245,242,236,0.95);backdrop-filter:blur(12px);mix-blend-mode:normal;border-bottom:1px solid var(--border)}
+.nav-logo{font-family:'Outfit','Noto Sans JP',sans-serif;font-size:1.5rem;font-weight:800;color:var(--dark);letter-spacing:-0.02em;text-decoration:none}
+.nav-logo span{color:var(--orange)}
+.nav-links{display:flex;gap:2.5rem;list-style:none}
+.nav-links a{color:var(--gray);text-decoration:none;font-size:0.82rem;letter-spacing:0.05em;transition:color 0.2s;font-family:'Outfit','Noto Sans JP',sans-serif;font-weight:500}
+.nav-links a:hover{color:var(--orange)}
+.nav-cta{background:var(--dark);color:var(--cream);padding:0.65rem 1.6rem;font-size:0.78rem;letter-spacing:0.08em;border:none;cursor:none;font-family:'Outfit','Noto Sans JP',sans-serif;font-weight:600;text-decoration:none;transition:all 0.25s;border-radius:4px}
+.nav-cta:hover{background:var(--orange)}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:none}
+.hamburger span{display:block;width:22px;height:2px;background:var(--dark);transition:all 0.3s}
+
+/* HERO */
+.hero{min-height:100vh;padding:0 3rem;display:flex;flex-direction:column;justify-content:flex-end;padding-bottom:5rem;position:relative;overflow:hidden}
+.hero-bg-circle{position:absolute;top:-200px;right:-200px;width:700px;height:700px;border-radius:50%;background:var(--orange);opacity:0.08;pointer-events:none}
+.hero-bg-dots{position:absolute;inset:0;background-image:radial-gradient(var(--orange) 1px,transparent 1px);background-size:32px 32px;opacity:0.06;pointer-events:none}
+.hero-top{padding-top:10rem;display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:4rem}
+.hero-tag{font-family:'Outfit','Noto Sans JP',sans-serif;font-size:0.72rem;font-weight:600;letter-spacing:0.25em;color:var(--orange);text-transform:uppercase;border:1.5px solid var(--orange);padding:0.4rem 1rem;border-radius:50px;animation:fadeIn 0.6s ease both}
+.hero-meta{text-align:right;animation:fadeIn 0.6s 0.2s ease both}
+.hero-meta-num{font-family:'Outfit','Noto Sans JP',sans-serif;font-size:0.72rem;font-weight:600;color:var(--gray);letter-spacing:0.1em}
+.hero-title{font-family:'Outfit','Noto Sans JP',sans-serif;font-size:clamp(4rem,9vw,8rem);font-weight:800;line-height:0.92;letter-spacing:-0.04em;color:var(--dark);margin-bottom:3rem;position:relative;z-index:1}
+.hero-title .line{display:block;overflow:hidden}
+.hero-title .line span{display:block;animation:slideUp 0.8s cubic-bezier(0.16,1,0.3,1) both}
+.hero-title .line:nth-child(1) span{animation-delay:0.1s}
+.hero-title .line:nth-child(2) span{animation-delay:0.2s}
+.hero-title .line:nth-child(3) span{animation-delay:0.3s}
+.hero-title .accent{color:var(--orange);font-style:italic}
+.hero-bottom{display:flex;align-items:flex-end;justify-content:space-between;gap:3rem;animation:fadeIn 0.8s 0.5s ease both}
+.hero-desc{color:var(--gray);font-size:0.9rem;line-height:2;max-width:380px}
+.hero-actions{display:flex;gap:1rem;flex-wrap:wrap;align-items:center}
+.btn-dark{background:var(--dark);color:var(--cream);padding:1rem 2.5rem;font-size:0.82rem;letter-spacing:0.08em;border:none;cursor:none;font-family:'Outfit','Noto Sans JP',sans-serif;font-weight:600;text-decoration:none;display:inline-block;transition:all 0.25s;border-radius:4px}
+.btn-dark:hover{background:var(--orange);transform:translateY(-2px)}
+.btn-outline{background:transparent;color:var(--dark);padding:1rem 2.5rem;font-size:0.82rem;letter-spacing:0.08em;border:2px solid var(--dark);cursor:none;font-family:'Outfit','Noto Sans JP',sans-serif;font-weight:600;text-decoration:none;display:inline-block;transition:all 0.25s;border-radius:4px}
+.btn-outline:hover{border-color:var(--orange);color:var(--orange)}
+.hero-scroll{display:flex;align-items:center;gap:0.8rem;color:var(--gray);font-size:0.72rem;letter-spacing:0.15em;font-family:'Outfit','Noto Sans JP',sans-serif;font-weight:500}
+.hero-scroll-line{width:48px;height:1px;background:var(--gray)}
+
+/* TICKER */
+.ticker{background:var(--dark);padding:1rem 0;overflow:hidden;white-space:nowrap}
+.ticker-inner{display:inline-flex;animation:ticker 20s linear infinite}
+.ticker-item{font-family:'Outfit','Noto Sans JP',sans-serif;font-size:0.85rem;font-weight:600;color:var(--cream);letter-spacing:0.1em;padding:0 3rem}
+.ticker-item.accent{color:var(--orange)}
+
+/* SECTION */
+section{padding:7rem 3rem}
+.section-inner{max-width:1100px;margin:0 auto}
+.section-num{font-family:'Outfit','Noto Sans JP',sans-serif;font-size:0.65rem;font-weight:700;letter-spacing:0.2em;color:var(--orange);margin-bottom:0.5rem;text-transform:uppercase}
+.section-title{font-family:'Outfit','Noto Sans JP',sans-serif;font-size:clamp(2rem,4vw,3.2rem);font-weight:800;line-height:1.05;letter-spacing:-0.03em;color:var(--dark);margin-bottom:1rem}
+.section-desc{color:var(--gray);font-size:0.9rem;line-height:2;max-width:480px;margin-bottom:4rem}
+
+/* ABOUT */
+.about{background:var(--dark)}
+.about-inner{display:grid;grid-template-columns:1fr 1fr;gap:6rem;align-items:center}
+.about .section-num{color:var(--orange)}
+.about .section-title{color:var(--cream)}
+.about .section-desc{color:rgba(250,248,244,0.6);margin-bottom:0}
+.about-stats{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:rgba(255,255,255,0.05)}
+.stat-box{background:var(--dark);padding:2.5rem 2rem;border:1px solid rgba(255,255,255,0.05)}
+.stat-box-num{font-family:'Outfit','Noto Sans JP',sans-serif;font-size:3rem;font-weight:800;color:var(--orange);line-height:1;letter-spacing:-0.03em;margin-bottom:0.5rem}
+.stat-box-label{font-size:0.78rem;color:rgba(250,248,244,0.5);letter-spacing:0.08em}
+
+/* SERVICE */
+.service{background:var(--bg)}
+.service-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:4rem;flex-wrap:wrap;gap:2rem}
+.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5px;background:var(--border)}
+.service-card{background:var(--cream);padding:3rem 2.5rem;transition:all 0.3s;position:relative;overflow:hidden}
+.service-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--orange);transform:scaleX(0);transition:transform 0.3s;transform-origin:left}
+.service-card:hover{background:var(--white)}
+.service-card:hover::after{transform:scaleX(1)}
+.service-num{font-family:'Outfit','Noto Sans JP',sans-serif;font-size:0.65rem;font-weight:700;letter-spacing:0.2em;color:var(--orange);margin-bottom:2rem;text-transform:uppercase}
+.service-name{font-family:'Outfit','Noto Sans JP',sans-serif;font-size:1.2rem;font-weight:700;color:var(--dark);margin-bottom:0.5rem;letter-spacing:-0.01em}
+.service-price{font-family:'Outfit','Noto Sans JP',sans-serif;font-size:2.5rem;font-weight:800;color:var(--dark);letter-spacing:-0.04em;line-height:1;margin-bottom:1.5rem}
+.service-price span{font-family:'Noto Sans JP',sans-serif;font-size:0.75rem;color:var(--gray);font-weight:300;letter-spacing:0.02em}
+.service-features{list-style:none;display:flex;flex-direction:column;gap:0.6rem}
+.service-features li{font-size:0.8rem;color:var(--gray);display:flex;align-items:center;gap:0.7rem;line-height:1.5}
+.service-features li::before{content:'→';color:var(--orange);font-size:0.75rem;flex-shrink:0;font-family:'Outfit','Noto Sans JP',sans-serif;font-weight:700}
+
+/* WORK SHOWCASE - browser mockup */
+.showcase{background:var(--dark);overflow:hidden}
+.showcase-inner{max-width:1100px;margin:0 auto}
+.showcase-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:4rem;flex-wrap:wrap;gap:2rem}
+.showcase .section-title{color:var(--cream)}
+.showcase .section-num{color:var(--orange)}
+.showcase .section-desc{color:rgba(250,248,244,0.5)}
+.browser-mockup{background:#1E1E1E;border-radius:12px;overflow:hidden;border:1px solid rgba(255,255,255,0.08)}
+.browser-bar{background:#2A2A2A;padding:0.8rem 1rem;display:flex;align-items:center;gap:1rem}
+.browser-dots{display:flex;gap:6px}
+.browser-dots span{width:10px;height:10px;border-radius:50%}
+.browser-dots span:nth-child(1){background:#FF5F57}
+.browser-dots span:nth-child(2){background:#FEBC2E}
+.browser-dots span:nth-child(3){background:#28C840}
+.browser-url{background:#3A3A3A;border-radius:6px;padding:0.3rem 0.8rem;font-family:'Outfit','Noto Sans JP',sans-serif;font-size:0.72rem;color:rgba(255,255,255,0.4);flex:1;max-width:300px}
+.browser-content{padding:2.5rem;display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.mock-card{border-radius:8px;overflow:hidden}
+.mock-card-top{height:120px;display:flex;align-items:center;justify-content:center;font-size:2.5rem}
+.mock-card-body{background:#2A2A2A;padding:1rem}
+.mock-card-title{font-family:'Outfit','Noto Sans JP',sans-serif;font-size:0.78rem;font-weight:700;color:#fff;margin-bottom:4px}
+.mock-card-sub{font-size:0.65rem;color:rgba(255,255,255,0.4);letter-spacing:0.08em}
+
+/* FLOW */
+.flow{background:var(--bg)}
+.flow-list{display:flex;flex-direction:column;gap:0}
+.flow-item{display:grid;grid-template-columns:80px 1fr;gap:3rem;align-items:flex-start;padding:3rem 0;border-bottom:1px solid var(--border);transition:all 0.3s}
+.flow-item:hover .flow-num-box{background:var(--orange);color:var(--cream)}
+.flow-num-box{width:60px;height:60px;border:2px solid var(--dark);display:flex;align-items:center;justify-content:center;font-family:'Outfit','Noto Sans JP',sans-serif;font-size:1.2rem;font-weight:800;color:var(--dark);transition:all 0.3s;border-radius:12px;flex-shrink:0}
+.flow-body h3{font-family:'Outfit','Noto Sans JP',sans-serif;font-size:1.1rem;font-weight:700;color:var(--dark);margin-bottom:0.5rem;letter-spacing:-0.01em}
+.flow-body p{font-size:0.85rem;color:var(--gray);line-height:2}
+
+/* FAQ */
+.faq{background:var(--cream)}
+.faq-grid{display:grid;grid-template-columns:1fr 1.5fr;gap:6rem;align-items:flex-start}
+.faq-list{display:flex;flex-direction:column;gap:0}
+.faq-item{border-bottom:1px solid var(--border)}
+.faq-q{padding:1.5rem 0;display:flex;justify-content:space-between;align-items:center;cursor:none;gap:2rem}
+.faq-q-text{font-family:'Outfit','Noto Sans JP',sans-serif;font-size:0.9rem;font-weight:600;color:var(--dark);letter-spacing:-0.01em}
+.faq-icon{width:28px;height:28px;background:var(--dark);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--cream);font-size:1rem;transition:all 0.3s;line-height:1}
+.faq-item.open .faq-icon{background:var(--orange);transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height 0.4s ease}
+.faq-a-inner{padding:0 0 1.5rem;color:var(--gray);font-size:0.83rem;line-height:2.2}
+.faq-item.open .faq-a{max-height:200px}
+
+/* CTA */
+.cta{background:var(--orange);position:relative;overflow:hidden;padding:8rem 3rem}
+.cta-bg{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-family:'Outfit','Noto Sans JP',sans-serif;font-size:20rem;font-weight:800;color:rgba(255,255,255,0.05);white-space:nowrap;pointer-events:none;letter-spacing:-0.06em}
+.cta-inner{max-width:800px;margin:0 auto;text-align:center;position:relative;z-index:1}
+.cta-label{font-family:'Outfit','Noto Sans JP',sans-serif;font-size:0.72rem;font-weight:700;letter-spacing:0.25em;color:rgba(255,255,255,0.6);text-transform:uppercase;margin-bottom:1.5rem}
+.cta-title{font-family:'Outfit','Noto Sans JP',sans-serif;font-size:clamp(2.5rem,6vw,5rem);font-weight:800;color:#fff;line-height:0.95;letter-spacing:-0.04em;margin-bottom:2rem}
+.cta-desc{color:rgba(255,255,255,0.75);font-size:0.9rem;line-height:2;margin-bottom:3rem;max-width:480px;margin-left:auto;margin-right:auto}
+.btn-white-solid{background:#fff;color:var(--orange);padding:1.1rem 3rem;font-size:0.85rem;letter-spacing:0.08em;border:none;cursor:none;font-family:'Outfit','Noto Sans JP',sans-serif;font-weight:700;text-decoration:none;display:inline-block;transition:all 0.25s;border-radius:4px}
+.btn-white-solid:hover{background:var(--dark);color:#fff;transform:translateY(-2px)}
+
+/* FOOTER */
+footer{background:var(--dark);padding:4rem 3rem}
+.footer-inner{max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:2rem}
+.footer-logo{font-family:'Outfit','Noto Sans JP',sans-serif;font-size:1.5rem;font-weight:800;color:var(--cream);letter-spacing:-0.02em}
+.footer-logo span{color:var(--orange)}
+.footer-links{display:flex;gap:2rem;list-style:none;flex-wrap:wrap}
+.footer-links a{color:rgba(250,248,244,0.4);text-decoration:none;font-family:'Outfit','Noto Sans JP',sans-serif;font-size:0.78rem;font-weight:500;transition:color 0.2s;letter-spacing:0.05em}
+.footer-links a:hover{color:var(--orange)}
+.footer-copy{width:100%;text-align:center;font-size:0.7rem;color:rgba(250,248,244,0.2);padding-top:2rem;border-top:1px solid rgba(255,255,255,0.05);margin-top:1rem;font-family:'Outfit','Noto Sans JP',sans-serif;letter-spacing:0.1em}
+
+/* ANIMATIONS */
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
+@keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.reveal{opacity:0;transform:translateY(20px);transition:all 0.7s cubic-bezier(0.16,1,0.3,1)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.reveal-1{transition-delay:0.1s}
+.reveal-2{transition-delay:0.2s}
+.reveal-3{transition-delay:0.3s}
+
+/* MOBILE */
+@media(max-width:768px){
+  body{cursor:auto}
+  .cursor,.cursor-ring{display:none}
+  nav{padding:1rem 1.5rem;mix-blend-mode:normal;background:rgba(245,242,236,0.95)}
+  .nav-links,.nav-cta{display:none}
+  .hamburger{display:flex}
+  .hero{padding:5rem 1.5rem 3rem}
+  .hero-title{font-size:3.5rem}
+  .hero-bottom{flex-direction:column;align-items:flex-start}
+  .hero-scroll{display:none}
+  section{padding:5rem 1.5rem}
+  .about-inner,.faq-grid{grid-template-columns:1fr;gap:3rem}
+  .about-stats{grid-template-columns:1fr 1fr}
+  .service-grid{grid-template-columns:1fr}
+  .browser-content{grid-template-columns:1fr}
+  .flow-item{grid-template-columns:1fr;gap:1rem}
+  .photo-grid{grid-template-columns:1fr!important;height:auto!important}
+  .footer-inner{flex-direction:column;text-align:center}
+  .footer-links{justify-content:center}
+  footer{padding:3rem 1.5rem}
+  .cta{padding:5rem 1.5rem}
+  .nav-cta,.btn-dark,.btn-outline,.btn-white-solid,.course-btn{cursor:pointer}
+  .faq-q{cursor:pointer}
+}
+</style>
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<nav id="navbar">
+  <a class="nav-logo" href="javascript:void(0)" onclick="scrollToSection('top')">N<span>a</span>xa</a>
+  <ul class="nav-links">
+    <li><a href="javascript:void(0)" onclick="scrollToSection('about')">About</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToSection('service')">サービス</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToSection('flow')">ご利用の流れ</a></li>
+    <li><a href="javascript:void(0)" onclick="scrollToSection('faq')">FAQ</a></li>
+  </ul>
+  <a href="javascript:void(0)" onclick="scrollToSection('contact')" class="nav-cta">お申し込み</a>
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="top" style="position:relative">
+  <div style="position:absolute;inset:0;z-index:0;overflow:hidden">
+    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=1600&auto=format&fit=crop&q=80" 
+         alt="ホームページ制作" 
+         style="width:100%;height:100%;object-fit:cover;opacity:0.12">
+  </div>
+  <div class="hero-bg-circle"></div>
+  <div class="hero-bg-dots"></div>
+  <div class="hero-top">
+    <div class="hero-tag">Web Creation Service</div>
+    <div class="hero-meta">
+      <div class="hero-meta-num">AIホームページ制作</div>
+      <div class="hero-meta-num" style="color:var(--orange)">¥10,000〜</div>
+    </div>
+  </div>
+  <h1 class="hero-title">
+    <span class="line"><span>ホームページが</span></span>
+    <span class="line"><span><em class="accent">あなたの未来</em>を</span></span>
+    <span class="line"><span>切り開く。</span></span>
+  </h1>
+  <div class="hero-bottom">
+    <p class="hero-desc">起業支援金・補助金の申請条件に「ホームページの開設」が必要な方へ。Naxaは¥10,000からスピーディに制作します。申請期限が迫っていても大丈夫です。</p>
+    <div class="hero-actions">
+      <a href="javascript:void(0)" onclick="scrollToSection('contact')" class="btn-dark">今すぐ申し込む</a>
+      <a href="javascript:void(0)" onclick="scrollToSection('service')" class="btn-outline">サービスを見る</a>
+    </div>
+    <div class="hero-scroll">
+      <div class="hero-scroll-line"></div>
+      <span>SCROLL</span>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ticker-inner">
+    <span class="ticker-item">ホームページ制作</span>
+    <span class="ticker-item accent">●</span>
+    <span class="ticker-item">AI活用</span>
+    <span class="ticker-item accent">●</span>
+    <span class="ticker-item">スピード納品</span>
+    <span class="ticker-item accent">●</span>
+    <span class="ticker-item">低価格</span>
+    <span class="ticker-item accent">●</span>
+    <span class="ticker-item">月額更新プラン</span>
+    <span class="ticker-item accent">●</span>
+    <span class="ticker-item">補助金・支援金の申請条件に対応</span>
+    <span class="ticker-item accent">●</span>
+    <span class="ticker-item">ホームページ制作</span>
+    <span class="ticker-item accent">●</span>
+    <span class="ticker-item">AI活用</span>
+    <span class="ticker-item accent">●</span>
+    <span class="ticker-item">スピード納品</span>
+    <span class="ticker-item accent">●</span>
+    <span class="ticker-item">低価格</span>
+    <span class="ticker-item accent">●</span>
+    <span class="ticker-item">月額更新プラン</span>
+    <span class="ticker-item accent">●</span>
+    <span class="ticker-item">補助金・支援金の申請条件に対応</span>
+    <span class="ticker-item accent">●</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="section-inner">
+    <div class="about-inner">
+      <div>
+        <div class="section-num reveal">— 01 / About</div>
+        <h2 class="section-title reveal" style="color:var(--cream)">補助金申請に<br>必要なHPを、<br>すぐに用意。</h2>
+        <p class="section-desc reveal" style="color:rgba(250,248,244,0.55)">起業支援金・補助金・助成金の申請に「ホームページの開設」が条件になるケースが増えています。でも「制作費が高い」「申請期限が迫っている」「どこに頼めばいいかわからない」…そんな悩みをNaxaが解決。¥10,000・スピード納品で申請条件をクリアします。</p>
+      </div>
+      <div class="about-stats reveal">
+        <div class="stat-box">
+          <div class="stat-box-num">¥10,000</div>
+          <div class="stat-box-label">制作費（買い切り）</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-box-num">¥3,000</div>
+          <div class="stat-box-label">月額更新プラン</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-box-num">AI</div>
+          <div class="stat-box-label">最新技術で制作</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-box-num">速納</div>
+          <div class="stat-box-label">スピード納品対応</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE -->
+
+<!-- PHOTO SECTION -->
+<section style="background:var(--bg);padding:4rem 3rem 0">
+  <div class="section-inner">
+    <div style="display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:1.2rem;height:420px;">
+      <div style="border-radius:12px;overflow:hidden;position:relative">
+        <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&auto=format&fit=crop" 
+             alt="起業・ビジネス" 
+             style="width:100%;height:100%;object-fit:cover;display:block">
+        <div style="position:absolute;bottom:1.5rem;left:1.5rem;background:rgba(26,22,18,0.75);backdrop-filter:blur(8px);padding:0.6rem 1.2rem;border-radius:50px">
+          <span style="font-family:'Outfit','Noto Sans JP',sans-serif;font-size:0.72rem;font-weight:600;color:#fff;letter-spacing:0.08em">起業・新規事業</span>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:1.2rem">
+        <div style="border-radius:12px;overflow:hidden;flex:1;position:relative">
+          <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&auto=format&fit=crop" 
+               alt="補助金・書類" 
+               style="width:100%;height:100%;object-fit:cover;display:block">
+          <div style="position:absolute;bottom:1rem;left:1rem;background:rgba(26,22,18,0.75);backdrop-filter:blur(8px);padding:0.5rem 1rem;border-radius:50px">
+            <span style="font-family:'Outfit','Noto Sans JP',sans-serif;font-size:0.7rem;font-weight:600;color:#fff;letter-spacing:0.08em">補助金申請</span>
+          </div>
+        </div>
+        <div style="border-radius:12px;overflow:hidden;flex:1;position:relative">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&auto=format&fit=crop" 
+               alt="ホームページ制作" 
+               style="width:100%;height:100%;object-fit:cover;display:block">
+          <div style="position:absolute;bottom:1rem;left:1rem;background:rgba(26,22,18,0.75);backdrop-filter:blur(8px);padding:0.5rem 1rem;border-radius:50px">
+            <span style="font-family:'Outfit','Noto Sans JP',sans-serif;font-size:0.7rem;font-weight:600;color:#fff;letter-spacing:0.08em">Web制作</span>
+          </div>
+        </div>
+      </div>
+      <div style="border-radius:12px;overflow:hidden;position:relative">
+        <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&auto=format&fit=crop" 
+             alt="スタートアップ・PC作業" 
+             style="width:100%;height:100%;object-fit:cover;display:block">
+        <div style="position:absolute;bottom:1.5rem;left:1.5rem;background:rgba(26,22,18,0.75);backdrop-filter:blur(8px);padding:0.6rem 1.2rem;border-radius:50px">
+          <span style="font-family:'Outfit','Noto Sans JP',sans-serif;font-size:0.72rem;font-weight:600;color:#fff;letter-spacing:0.08em">スタートアップ支援</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TARGET -->
+<section style="background:var(--cream);padding:5rem 3rem">
+  <div class="section-inner">
+    <div class="section-num reveal">— For You</div>
+    <h2 class="section-title reveal">こんな方に<br>選ばれています</h2>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.5px;background:var(--border);margin-top:3rem" class="reveal">
+      <div style="background:var(--cream);padding:2.5rem 2rem">
+        <div style="height:140px;border-radius:10px;overflow:hidden;margin-bottom:1rem"><img src="https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=600&auto=format&fit=crop" alt="補助金申請" style="width:100%;height:100%;object-fit:cover"></div>
+        <div style="font-family:'Outfit','Noto Sans JP',sans-serif;font-size:1rem;font-weight:700;color:var(--dark);margin-bottom:0.8rem">補助金・支援金を申請したい方</div>
+        <p style="font-size:0.82rem;color:var(--gray);line-height:2">起業支援金・補助金・助成金の申請条件にホームページが必要な方。低コストで条件をクリアできます。</p>
+      </div>
+      <div style="background:var(--cream);padding:2.5rem 2rem;border-left:1.5px solid var(--border);border-right:1.5px solid var(--border)">
+        <div style="height:140px;border-radius:10px;overflow:hidden;margin-bottom:1rem"><img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&auto=format&fit=crop" alt="期限・作業" style="width:100%;height:100%;object-fit:cover"></div>
+        <div style="font-family:'Outfit','Noto Sans JP',sans-serif;font-size:1rem;font-weight:700;color:var(--dark);margin-bottom:0.8rem">申請期限が迫っている方</div>
+        <p style="font-size:0.82rem;color:var(--gray);line-height:2">「申請期限まで時間がない」そんな方のためにスピード納品で対応。期限に間に合わせます。</p>
+      </div>
+      <div style="background:var(--cream);padding:2.5rem 2rem">
+        <div style="height:140px;border-radius:10px;overflow:hidden;margin-bottom:1rem"><img src="https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=600&auto=format&fit=crop" alt="コスト削減" style="width:100%;height:100%;object-fit:cover"></div>
+        <div style="font-family:'Outfit','Noto Sans JP',sans-serif;font-size:1rem;font-weight:700;color:var(--dark);margin-bottom:0.8rem">費用を抑えて開設したい方</div>
+        <p style="font-size:0.82rem;color:var(--gray);line-height:2">補助金申請のためだけに高額な制作費は払いたくない。¥10,000で条件をクリアできます。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="service" id="service">
+  <div class="section-inner">
+    <div class="service-header">
+      <div>
+        <div class="section-num reveal">— 02 / Service</div>
+        <h2 class="section-title reveal">シンプルな<br>2つのプラン</h2>
+      </div>
+      <p class="section-desc reveal" style="margin-bottom:0">ホームページを作るだけでなく、運用まで丸ごとサポート。あなたのビジネスに合ったプランを選べます。</p>
+    </div>
+    <div class="service-grid">
+      <div class="service-card reveal">
+        <div class="service-num">Plan 01</div>
+        <div class="service-name">制作のみプラン</div>
+        <div class="service-price">¥10,000 <span>買い切り</span></div>
+        <ul class="service-features">
+          <li>AIによるコンテンツ生成</li>
+          <li>スマートフォン対応</li>
+          <li>スピード納品</li>
+          <li>基本SEO設定</li>
+        </ul>
+      </div>
+      <div class="service-card reveal reveal-1">
+        <div class="service-num">Plan 02</div>
+        <div class="service-name">毎月更新プラン</div>
+        <div class="service-price">¥3,000 <span>/ 月</span></div>
+        <ul class="service-features">
+          <li>月1回のコンテンツ更新</li>
+          <li>お知らせ・ブログ追加</li>
+          <li>メンテナンス・管理</li>
+          <li>優先サポート対応</li>
+        </ul>
+      </div>
+      <div class="service-card reveal reveal-2">
+        <div class="service-num">Why Naxa?</div>
+        <div class="service-name">選ばれる理由</div>
+        <div class="service-price" style="font-size:1.4rem;margin-bottom:1.5rem">3つの強み</div>
+        <ul class="service-features">
+          <li>価格：業界最安値クラス</li>
+          <li>スピード：最速クラスの納品</li>
+          <li>範囲：制作+運用のワンストップ</li>
+          <li>補助金申請の条件をすぐにクリア</li>
+          <li>申請期限に間に合うスピード納品</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWCASE -->
+<section class="showcase" id="showcase">
+  <div class="showcase-inner">
+    <div class="showcase-header">
+      <div>
+        <div class="section-num reveal">— 03 / Works</div>
+        <h2 class="section-title reveal" style="color:var(--cream)">制作できる<br>サイトのイメージ</h2>
+      </div>
+      <p class="section-desc reveal">業種・用途に合わせた様々なホームページを制作できます。</p>
+    </div>
+    <div class="browser-mockup reveal">
+      <div class="browser-bar">
+        <div class="browser-dots">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="browser-url">https://your-business.com</div>
+      </div>
+      <div class="browser-content">
+        <div class="mock-card">
+          <div class="mock-card-top" style="padding:0;overflow:hidden"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&auto=format&fit=crop" alt="飲食店" style="width:100%;height:100%;object-fit:cover"></div>
+          <div class="mock-card-body">
+            <div class="mock-card-title">飲食店・カフェ</div>
+            <div class="mock-card-sub">メニュー・予約・アクセス</div>
+          </div>
+        </div>
+        <div class="mock-card">
+          <div class="mock-card-top" style="padding:0;overflow:hidden"><img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400&auto=format&fit=crop" alt="ビジネス" style="width:100%;height:100%;object-fit:cover"></div>
+          <div class="mock-card-body">
+            <div class="mock-card-title">士業・コンサル</div>
+            <div class="mock-card-sub">実績・サービス・問い合わせ</div>
+          </div>
+        </div>
+        <div class="mock-card">
+          <div class="mock-card-top" style="padding:0;overflow:hidden"><img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&auto=format&fit=crop" alt="美容サロン" style="width:100%;height:100%;object-fit:cover"></div>
+          <div class="mock-card-body">
+            <div class="mock-card-title">美容・サロン</div>
+            <div class="mock-card-sub">メニュー・予約・スタッフ紹介</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FLOW -->
+<section class="flow" id="flow">
+  <div class="section-inner">
+    <div class="section-num reveal">— 04 / Flow</div>
+    <h2 class="section-title reveal">ご利用の流れ</h2>
+    <p class="section-desc reveal">お申し込みからホームページ公開まで、シンプルな4ステップ。</p>
+    <div class="flow-list">
+      <div class="flow-item reveal">
+        <div class="flow-num-box" style="position:relative;overflow:hidden;border:none"><img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=200&auto=format&fit=crop" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.3"><span style="position:relative;z-index:1">01</span></div>
+        <div class="flow-body">
+          <h3>お申し込み</h3>
+          <p>申し込みフォームに必要事項をご入力ください。業種・ご要望・プランを選択するだけで完了します。2営業日以内にNaxaよりご連絡いたします。</p>
+        </div>
+      </div>
+      <div class="flow-item reveal reveal-1">
+        <div class="flow-num-box" style="position:relative;overflow:hidden;border:none"><img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=200&auto=format&fit=crop" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.3"><span style="position:relative;z-index:1">02</span></div>
+        <div class="flow-body">
+          <h3>ヒアリング・制作開始</h3>
+          <p>ご要望を確認後、AIを活用してホームページの制作を開始します。デザイン・コンテンツともにプロ品質で仕上げます。</p>
+        </div>
+      </div>
+      <div class="flow-item reveal reveal-2">
+        <div class="flow-num-box" style="position:relative;overflow:hidden;border:none"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=200&auto=format&fit=crop" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.3"><span style="position:relative;z-index:1">03</span></div>
+        <div class="flow-body">
+          <h3>確認・修正</h3>
+          <p>完成したホームページをご確認いただき、修正点があればお知らせください。ご満足いただけるまで対応いたします。</p>
+        </div>
+      </div>
+      <div class="flow-item reveal reveal-3">
+        <div class="flow-num-box" style="position:relative;overflow:hidden;border:none"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=200&auto=format&fit=crop" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.3"><span style="position:relative;z-index:1">04</span></div>
+        <div class="flow-body">
+          <h3>納品・公開</h3>
+          <p>最終確認後、ホームページを公開します。毎月更新プランをご選択の方は、そのまま継続サポートを開始します。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="section-inner">
+    <div class="faq-grid">
+      <div>
+        <div class="section-num reveal">— 05 / FAQ</div>
+        <h2 class="section-title reveal">よくある<br>ご質問</h2>
+        <p class="section-desc reveal" style="margin-bottom:2rem">お気軽にお問い合わせください。</p>
+        <a href="javascript:void(0)" onclick="scrollToSection('contact')" class="btn-dark reveal">お問い合わせ →</a>
+      </div>
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            <span class="faq-q-text">¥10,000でどんなホームページが作れますか？</span>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-a"><div class="faq-a-inner">スマートフォン対応・基本SEO設定済みのプロ品質のホームページを制作します。AIを活用することで、コストを抑えながらも見栄えの良いサイトをお届けします。</div></div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            <span class="faq-q-text">納品までどのくらいかかりますか？</span>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-a"><div class="faq-a-inner">AIを活用した制作のため、ヒアリング後最短数日での納品が可能です。内容やご要望によって異なりますので、詳しくはお申し込み後にご確認いたします。</div></div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            <span class="faq-q-text">毎月更新プランとはどんな内容ですか？</span>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-a"><div class="faq-a-inner">お知らせの追加・修正、ブログ記事の投稿、営業時間や価格などの情報更新など、月1回のコンテンツ更新作業を代行します。</div></div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            <span class="faq-q-text">制作のみプランから更新プランに変更できますか？</span>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-a"><div class="faq-a-inner">はい、いつでも変更可能です。納品後に毎月更新プランへの追加をご希望の場合は、お気軽にご連絡ください。</div></div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            <span class="faq-q-text">業種や規模に制限はありますか？</span>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-a"><div class="faq-a-inner">制限はありません。飲食・美容・士業・小売・サービス業など、あらゆる業種の中小企業・個人事業主様に対応しています。</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta" id="contact">
+  <div class="cta-bg">Naxa</div>
+  <div class="cta-inner reveal">
+    <div class="cta-label">Contact</div>
+    <h2 class="cta-title">申請期限に、<br>間に合わせます。</h2>
+    <p class="cta-desc">補助金・支援金の申請期限が迫っている方も、まずはフォームからご相談ください。2営業日以内にご連絡し、スピーディに対応いたします。</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4GMgfHy5Khte6XsP-5F5DLnwKXPGEoiCYQRF482Iq6wmbtw/viewform" target="_blank" class="btn-white-solid">申し込みフォームへ →</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">N<span>a</span>xa</div>
+    </div>
+    <ul class="footer-links">
+      <li><a href="javascript:void(0)" onclick="scrollToSection('about')">About</a></li>
+      <li><a href="javascript:void(0)" onclick="scrollToSection('service')">サービス</a></li>
+      <li><a href="javascript:void(0)" onclick="scrollToSection('flow')">ご利用の流れ</a></li>
+      <li><a href="javascript:void(0)" onclick="scrollToSection('faq')">FAQ</a></li>
+      <li><a href="javascript:void(0)" onclick="scrollToSection('contact')">お申し込み</a></li>
+    </ul>
+    <p class="footer-copy">© 2026 Naxa. All rights reserved.</p>
+  </div>
+</footer>
+
+<script>
+// Custom cursor
+const cursor=document.getElementById('cursor');
+const ring=document.getElementById('cursorRing');
+let mx=0,my=0,rx=0,ry=0;
+document.addEventListener('mousemove',e=>{
+  mx=e.clientX;my=e.clientY;
+  cursor.style.left=(mx-6)+'px';cursor.style.top=(my-6)+'px';
+});
+function animRing(){
+  rx+=(mx-rx)*0.12;ry+=(my-ry)*0.12;
+  ring.style.left=(rx-20)+'px';ring.style.top=(ry-20)+'px';
+  requestAnimationFrame(animRing);
+}
+animRing();
+
+document.querySelectorAll('a,button,.faq-q,.hamburger').forEach(el=>{
+  el.addEventListener('mouseenter',()=>{cursor.style.transform='scale(2.5)';ring.style.transform='scale(0.6)';ring.style.opacity='0.8'});
+  el.addEventListener('mouseleave',()=>{cursor.style.transform='scale(1)';ring.style.transform='scale(1)';ring.style.opacity='0.5'});
+});
+
+function scrollToSection(id){
+  var el=document.getElementById(id);
+  if(el){var top=el.getBoundingClientRect().top+window.pageYOffset-80;window.scrollTo({top:top,behavior:'smooth'});}
+}
+
+window.addEventListener('scroll',()=>{
+  document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>80);
+  document.querySelectorAll('.reveal').forEach(el=>{
+    if(el.getBoundingClientRect().top<window.innerHeight-60)el.classList.add('visible');
+  });
+});
+
+function toggleFaq(el){
+  const item=el.parentElement;
+  const isOpen=item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));
+  if(!isOpen)item.classList.add('open');
+}
+
+function toggleMenu(){
+  const links=document.querySelector('.nav-links');
+  const cta=document.querySelector('.nav-cta');
+  if(links.style.display==='flex'){
+    links.style.display='none';
+    if(cta)cta.style.display='none';
+  } else {
+    links.style.cssText='display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:rgba(245,242,236,0.98);padding:2rem;gap:1.5rem;border-bottom:1px solid var(--border);z-index:200';
+    if(cta){cta.style.display='block';cta.style.margin='0 1.5rem';}
+    links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.style.display='none';if(cta)cta.style.display='none';},{once:true}));
+  }
+}
+
+setTimeout(()=>{
+  document.querySelectorAll('.reveal').forEach(el=>{
+    if(el.getBoundingClientRect().top<window.innerHeight)el.classList.add('visible');
+  });
+},100);
+</script>
+</body>
+</html>
